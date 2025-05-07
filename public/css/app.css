@@ -1,0 +1,44 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5DC;
+    color: #2E4A2D;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #5C4033;
+}
+.navbar, .footer {
+    background-color: #2E4A2D;
+}
+.navbar a, .footer p {
+    color: #FFFFFF;
+}
+.btn-primary {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+}
+.btn-primary:hover {
+    background-color: #C0A030;
+    border-color: #C0A030;
+}
+
+.profile-card{
+    background: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+.profile-image{
+    width: 100%;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.form-control:disabled{
+    background-color: #f8f9fa;
+}
